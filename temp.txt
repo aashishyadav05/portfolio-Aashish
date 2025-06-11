@@ -1,0 +1,399 @@
+ <i class="fa fa-map-marker" aria-hidden="true"></i>
+    <i class="fa fa-phone" aria-hidden="true"></i>
+    <i class="fa fa-envelope" aria-hidden="true"></i>
+    <i class="fa fa-linkedin-square" aria-hidden="true"></i> 
+     -->
+    <!-- <style>
+        * {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: rgb(0, 0, 42);
+    color: azure;
+}
+
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(0, 0, 33);
+}
+
+main hr {
+    border: 0;
+    background: rgb(124, 11, 230);
+    height: 1.2px;
+    margin: 40px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(124, 11, 230);
+    font-size: 1.02rem;
+}
+
+.left {
+    font-size: 1.5rem;
+
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 115px 0;
+}
+
+.firstsection>div {
+    width: 30%;
+}
+
+.leftsection {
+    font-size: 2.5rem;
+}
+
+.leftsection .buttons {
+    padding: 23px;
+}
+
+.leftsection .btn {
+    padding: 12px;
+    background: #00002a;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 10px;
+    cursor: pointer;
+
+}
+
+.leftsection .btn:hover {
+    border-color: rgb(139, 64, 209);
+    color: rgb(139, 64, 209);
+
+}
+
+.rightsection img {
+    min-width: 450px;
+    height: 500px;
+    background-color: rgb(124, 11, 230);
+	padding: .1rem;
+    border-radius: 48%;
+    
+}
+
+.text-gray {
+    color: rgb(197, 157, 234);
+}
+
+.purple {
+    color: rgb(139, 64, 209);
+}
+
+#element {
+    color: rgb(139, 64, 209);
+}
+
+
+
+
+
+
+
+
+
+.middlesection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 115px 0;
+    height: 60vh;
+}
+
+.leftmiddle img {
+    width: 110%;
+    margin: 0 -150px;
+}
+
+.middlesection>div {
+    width: 30%;
+}
+
+.middlesection .rightmiddle {
+    font-size: 1.8rem;
+    width: 40%;
+}
+
+.middlesection .about {
+    position: relative;
+    top: -280px;
+    left: 100px;
+    font-size: 1.3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.secondsection {
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+
+.secondsection h1 {
+    font-size: 1.9rem;
+}
+
+.secondsection .box {
+    background: white;
+    width: 82vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+
+.secondsection .verticle {
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0 100px;
+}
+
+.image-top {
+    width: 23px;
+    position: relative;
+    top: -32px;
+    left: -9px;
+}
+
+.verticle-title {
+    position: relative;
+    top: 75px;
+    width: 150px;
+    font-size: 20px;
+
+
+}
+
+.verticle-desc {
+    position: relative;
+    top: 86px;
+    color: gray;
+    width: 150px;
+    font-size: 10px;
+}
+
+.prosection {
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+
+.prosection h1 {
+    font-size: 1.9rem;
+}
+
+
+
+
+
+.contectsection {
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+    position: relative;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contectsection .content {
+    max-width: 800px;
+    text-align: justify;
+    position: relative;
+    top: -100px;
+    left: -215px;
+}
+
+.contectsection .content h1 {
+    font-size: 1.9rem;
+    margin: 22px 0;
+}
+
+
+.contectsection .content h2 {
+    font-size: 36px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.contectsection .content p {
+
+    font-weight: 300;
+    color: #fff;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.container .contactinfo {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container .contactinfo .box {
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+
+.container .contactinfo .box .icon {
+    min-width: 40px;
+    height: 40px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+    /* margin: 0 10px; */
+}
+
+.container .contactinfo .box .text {
+    display: flex;
+    margin-left: 10px;
+    font-size: 16px;
+    color: #fff;
+    flex-direction: column;
+    font-weight: 300;
+}
+
+.container .contactinfo .box .text p a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container .contactinfo .box .text h3 {
+    font-weight: 500;
+    color: rgb(124, 11, 230);
+    margin: 2px 0;
+}
+
+.contactform {
+    width: 40%;
+    padding: 40px;
+    background: #fff;
+    color: #00002a;
+    border-radius: 8px;
+}
+
+.contactform h2 {
+    font-size: 30px;
+    color: #333;
+    font-weight: 500;
+}
+
+.contactform .inputbox {
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.contactform .inputbox input,
+.contactform .inputbox textarea {
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+}
+
+.contactform .inputbox span {
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: .10s;
+    color: rgb(197, 157, 234);
+
+}
+
+.contactform .inputbox input:focus~span,
+.contactform .inputbox input:valid~span,
+.contactform .inputbox textarea:valid~span,
+.contactform .inputbox textarea:valid~span {
+    color: #00002a;
+    font-size: 12px;
+    transform: translateY(-20px);
+}
+
+.contactform .inputbox input[type="submit"] {
+    /* width:100px;
+    background:rgb(124, 11, 230);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px; */
+    width: 150px;
+    margin: 10px 170px;
+    padding: 12px;
+    background: #00002a;
+    color: #fff;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+
+.contactform .inputbox input[type="submit"]:hover {
+    border-color: rgb(124, 11, 230);
+    color: rgb(124, 11, 230);
+
+}
+
+    </style> 

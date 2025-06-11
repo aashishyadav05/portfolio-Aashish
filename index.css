@@ -1,0 +1,628 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: rgb(0, 0, 42);
+    color: azure;
+}
+
+main {
+    margin-top: 60px;
+  }
+  
+  section {
+    padding: 60px 20px;
+  }
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(0, 0, 33);
+}
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+  }
+main hr {
+    border: 0;
+    background: rgb(124, 11, 230);
+    height: 1.2px;
+    margin: 40px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(124, 11, 230);
+    font-size: 1.02rem;
+}
+
+.left {
+    font-size: 1.5rem;
+
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 115px 0;
+}
+
+.firstsection>div {
+    width: 30%;
+}
+
+.leftsection {
+    font-size: 2.5rem;
+}
+
+.leftsection .buttons {
+    padding: 23px;
+}
+
+.leftsection .btn {
+    padding: 12px;
+    background: #00002a;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 10px;
+    cursor: pointer;
+
+}
+
+.leftsection .btn:hover {
+    border-color:  rgba(0, 255, 200, 0.5);
+    color: rgba(0, 255, 200, 0.4);
+
+}
+
+.rightsection img {
+    min-width: 450px;
+    height: 500px;
+    background-color: rgb(124, 11, 230);
+    padding: .1rem;
+    border-radius: 48%;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.rightsection img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px  rgba(0, 255, 200, 0.5);
+}
+
+
+.text-gray {
+    color: rgb(197, 157, 234);
+}
+
+.purple {
+    color: rgb(139, 64, 209);
+}
+
+#element {
+    color: rgb(139, 64, 209);
+}
+
+@media screen and (max-width: 768px) {
+    .firstsection {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .firstsection > div {
+        width: 90%;
+    }
+
+    .leftsection {
+        font-size: 1.8rem;
+    }
+
+    .rightsection img {
+        height: auto;
+        width: 80%;
+        border-radius: 20px;
+    }
+
+    .leftsection .btn {
+        margin: 10px;
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.middlesection {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: #0a0a23;
+    color: white;
+    padding: 60px 20px;
+    gap: 50px;
+}
+
+.leftmiddle img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+}
+
+.leftmiddle img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(0, 255, 200, 0.5);
+}
+
+.rightmiddle {
+    max-width: 600px;
+    font-size: 1.2rem;
+    line-height: 1.8;
+    text-align: left;
+}
+
+.rightmiddle h1 {
+    font-size: 2.5rem;
+    color: #00ffc8;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+.secondsection {
+    background-color: #0a0a23;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.secondsection h1 {
+    font-size: 2.5rem;
+    color: #00ffc8;
+    margin-bottom: 40px;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.skill-card {
+    background-color: #1f1f3d;
+    padding: 20px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 255, 200, 0.2);
+    transition: transform 0.3s ease;
+    text-align: center;
+}
+
+.skill-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 15px rgba(0, 255, 200, 0.4);
+}
+
+.skill-card img {
+    width: 50px;
+    margin-bottom: 15px;
+    filter: invert(100%);
+}
+
+.skill-card h2 {
+    margin: 10px 0;
+    font-size: 1.2rem;
+    color: #00ffc8;
+}
+
+.skill-card p {
+    font-size: 0.9rem;
+    color: #ccc;
+}
+
+
+
+
+
+
+
+.prosection {
+    background-color: #0a0a23;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.prosection h1 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #00ffc8;
+    text-shadow: 1px 1px 5px black;
+}
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.project-card {
+    background-color: #1a1a40;
+    border: 1px solid #2c2c6c;
+    border-radius: 15px;
+    padding: 25px;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 255, 200, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 20px rgba(0, 255, 200, 0.4);
+}
+
+.project-card h2 {
+    margin-bottom: 15px;
+    color: #00ffc8;
+}
+
+.project-card p {
+    font-size: 0.95rem;
+    color: #dcdcdc;
+    margin-bottom: 20px;
+}
+
+.project-card .btn {
+    background-color: #00ffc8;
+    color: black;
+    padding: 8px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.2s ease;
+}
+
+.project-card .btn:hover {
+    background-color: #00bfa6;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+.contectsection {
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+    position: relative;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contectsection .content {
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.contectsection .content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #00ffc8;
+    text-shadow: 1px 1px 5px black;
+    text-align: center;
+}
+
+
+.contectsection .content h2 {
+    font-size: 36px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.contectsection .content p {
+
+    font-weight: 300;
+    color: #fff;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.container .contactinfo {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container .contactinfo .box {
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+
+.container .contactinfo .box .icon {
+    min-width: 40px;
+    height: 40px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+    /* margin: 0 10px; */
+}
+
+.container .contactinfo .box .text {
+    display: flex;
+    margin-left: 10px;
+    font-size: 16px;
+    color: #fff;
+    flex-direction: column;
+    font-weight: 300;
+}
+
+.container .contactinfo .box .text p a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container .contactinfo .box .text h3 {
+    font-weight: 500;
+    color: rgb(124, 11, 230);
+    margin: 2px 0;
+}
+
+.contactform {
+    width: 40%;
+    padding: 40px;
+    background: #fff;
+    color: #00002a;
+    border-radius: 8px;
+}
+
+.contactform h2 {
+    font-size: 30px;
+    color: #333;
+    font-weight: 500;
+}
+
+.contactform .inputbox {
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.contactform .inputbox input,
+.contactform .inputbox textarea {
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+}
+
+.contactform .inputbox span {
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: .10s;
+    color: rgb(197, 157, 234);
+
+}
+
+.contactform .inputbox input:focus~span,
+.contactform .inputbox input:valid~span,
+.contactform .inputbox textarea:valid~span,
+.contactform .inputbox textarea:valid~span {
+    color: #00002a;
+    font-size: 12px;
+    transform: translateY(-20px);
+}
+
+.contactform .inputbox input[type="submit"] {
+    /* width:100px;
+    background:rgb(124, 11, 230);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px; */
+    width: 150px;
+    margin: 10px 170px;
+    padding: 12px;
+    background: #00002a;
+    color: #fff;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+
+.contactform .inputbox input[type="submit"]:hover {
+    border-color: rgb(124, 11, 230);
+    color: rgb(124, 11, 230);
+
+}
+
+
+/* Existing styles (truncated for brevity) */
+
+/* Add responsive media queries */
+@media screen and (max-width: 992px) {
+  nav {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+  }
+  
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav ul li {
+    margin: 10px 0;
+  }
+
+  .firstsection {
+    flex-direction: column-reverse;
+    margin: 80px 0;
+  }
+
+  .firstsection > div {
+    width: 90%;
+  }
+
+  .leftsection {
+    text-align: center;
+  }
+
+  .leftsection .btn {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+
+  .rightsection img {
+    width: 80%;
+    height: auto;
+    border-radius: 20px;
+  }
+
+  .middlesection {
+    flex-direction: column;
+    padding: 40px 20px;
+  }
+
+  .leftmiddle img {
+    max-width: 90%;
+  }
+
+  .rightmiddle {
+    font-size: 1rem;
+    text-align: center;
+    padding: 0 20px;
+  }
+
+  .secondsection h1,
+  .prosection h1,
+  .contectsection .content h1 {
+    font-size: 2rem;
+  }
+
+  .skills-container,
+  .projects-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+
+  .container .contactinfo,
+  .contactform {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .contactform .inputbox input[type="submit"] {
+    margin: 10px auto;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .leftsection {
+    font-size: 1.5rem;
+  }
+
+  .rightmiddle h1,
+  .secondsection h1,
+  .prosection h1,
+  .contectsection .content h1 {
+    font-size: 1.8rem;
+  }
+
+  .skill-card,
+  .project-card {
+    width: 90%;
+  }
+
+  .contactform .inputbox input,
+  .contactform .inputbox textarea {
+    font-size: 14px;
+  }
+
+  .contactform .inputbox span {
+    font-size: 14px;
+  }
+}
+
+/* Add transition support globally */
+img, .btn, .skill-card, .project-card {
+  transition: all 0.3s ease-in-out;
+}
+
